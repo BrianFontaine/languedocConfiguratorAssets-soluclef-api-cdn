@@ -1,0 +1,15 @@
+{
+    "individualgates":
+    [
+        {
+            "design":"Classique",
+            "picture":"classique.jpg"
+        },{
+            "design":"Contemporain",
+            "picture":"contemporain.jpg"
+        },{
+            "design":"Moderne",
+            "picture":"moderne.jpg"
+        }
+    ]
+}

@@ -1,0 +1,115 @@
+{
+    "colors": [
+      {
+        "color": "Beige",
+        "category": "1001",
+        "picture": "1001.png"
+      },
+      {
+        "color": "Blanc Perlé",
+        "category": "1013",
+        "picture" : "1013.png"
+      },
+      {
+        "color": "Ivoire Claire",
+        "category": "1015",
+        "picture" : "1015.png"
+      },
+      {
+        "color": "Cappucino",
+        "category": "1019",
+        "picture" : "1019.png"
+      },
+      {
+        "color": "Rouge pourpre",
+        "category": "3004",
+        "picture" : "3004.png"
+      },
+      {
+        "color": "Rouge vin",
+        "category": "3005",
+        "picture" : "3005.png"
+      },
+      {
+        "color": "Rouge",
+        "category": "3020",
+        "picture" : "3020.png"
+      },
+      {
+        "color": "Bleu Saphir",
+        "category": "5003",
+        "picture" : "5003.png"
+      },
+      {
+        "color": "Bleu Amiral",
+        "category": "5005",
+        "picture" : "5005.png"
+      },
+      {
+        "color": "Vert Mousse",
+        "category": "6005",
+        "picture" : "6005.png"
+      },
+      {
+        "color": "Vert Prairie",
+        "category": "6017",
+        "picture" : "6017.png"
+      },
+      {
+        "color": "Gris Basalte",
+        "category": "7012",
+        "picture" : "7012.png"
+      },
+      {
+        "color": "Gris Anthracite",
+        "category": "7016",
+        "picture" : "7016.png"
+      },
+      {
+        "color": "Taupe",
+        "category": "7034",
+        "picture" : "7034.png"
+      },
+      {
+        "color": "Gris Claire",
+        "category": "7035",
+        "picture" : "7035.png"
+      },
+      {
+        "color": "Gris Urbain",
+        "category": "7040",
+        "picture" : "7040.png"
+      },
+      {
+        "color": "Brun Noisette",
+        "category": "8011",
+        "picture" : "8011.png"
+      },
+      {
+        "color": "Brun Sépia",
+        "category": "8014",
+        "picture" : "8014.png"
+      },
+      {
+        "color": "Noir",
+        "category": "9005",
+        "picture" : "9005.png"
+      },
+      {
+        "color": "Gris Clair étoilé",
+        "category": "9006",
+        "picture" : "9006.png"
+      },
+      {
+        "color": "Gris étoilé",
+        "category": "9007",
+        "picture" : "9007.png"
+      },
+      {
+        "color": "Inox",
+        "category": "inox",
+        "picture" : "inox.png"
+      }
+    ]
+  }
+  

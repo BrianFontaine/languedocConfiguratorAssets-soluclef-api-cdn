@@ -1,0 +1,14 @@
+{
+    "stakes":[
+        {
+            "label":"Piquet a sceller",
+            "picture":"PiquetASceller.jpg",
+            "quantity":""
+        },
+        {
+            "label":"Piquet a visser",
+            "picture":"PiquetAVisser.jpg",
+            "quantity":""
+        }
+    ]
+}

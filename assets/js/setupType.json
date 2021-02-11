@@ -1,0 +1,16 @@
+{
+    "setupType":[
+        {
+            "label":"Applique",
+            "picture":"PoseApplique.jpg"
+        },
+        {
+            "label":"Encastrée",
+            "picture":"PoseEncastré.jpg"
+        },
+        {
+            "label":"Piquet",
+            "picture":"PosePiquet.jpg"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+table{
+    border-collapse: collapse;
+    box-shadow:1px 0px 8px black;
+    /* border: 1px solid black; */
+    margin: auto;
+}
+table thead{
+    background-color: rgb(59, 79, 255);
+    color: white;
+    font-weight: 800;
+    font-size: 1em;
+}
+td{
+    border: 2px solid black;
+}

@@ -1,0 +1,12 @@
+{
+    "security":
+    [
+        {
+            "label":"serrure 2 points",
+            "picture":"2point.jpg"
+        },{
+            "label":"serrure 3 point",
+            "picture":"3point.jpg"
+        }
+    ]
+}

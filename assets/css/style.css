@@ -1,0 +1,311 @@
+body
+{
+  padding: 0px;
+  margin: 0px;
+}
+ul {
+    list-style-type: none;
+  }
+  
+  li {
+    display: inline-block;
+  }
+  
+  input[type="radio"][id^="myradio"] {
+    display: none;
+  }
+  
+  label {
+    /* border: 1px solid #fff; */
+    padding: 10px;
+    display: block;
+    position: relative;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  label:before {
+    background-color: white;
+    color: white;
+    content: " ";
+    display: block;
+    border-radius: 50%;
+    border: 1px solid grey;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 28px;
+    transition-duration: 0.4s;
+    transform: scale(0);
+  }
+  
+  label img {
+    width: 30px;
+    transition-duration: 0.2s;
+    transform-origin: 50% 50%;
+  }
+  
+  /* :checked + label {
+    border-color: #ddd;
+  }
+   */
+  :checked + label:before {
+    content: "✓";
+    background-color: rgb(0, 225, 42);
+    transform: scale(1);
+    border: none;
+  }
+  
+  :checked + label img {
+    /* transform: scale(0.9); */
+    box-shadow: 0 0 10px rgb(0, 255, 42);
+    z-index: -1;
+  }
+  .box-preview{
+    width: 15em;
+  }
+  fieldset{
+    border: 2px solid rgb(255, 255, 255);
+  }
+  legend{
+    width: auto;
+  }
+  strong{
+    color: red;
+  }
+  [class^="question"]::after{
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f059";
+    color: orange;
+  }
+  p.section{
+    font-size: 0.8em;
+    border-bottom: 1px solid black;
+  }
+p
+  {
+    font-size: 0.8em;
+  }
+  [class^="check"]::after{
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f058";
+    color: green;
+  }
+
+img{
+    width: 22%;
+    margin-left: 6%;
+    padding: 1%;
+}
+.accounts{
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+details {
+    /* background-color: white; */
+    /* border: 1px solid #aaa; */
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.322);
+    padding: .5em .5em 0;
+    margin-bottom: 2%;
+}
+
+summary {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+    background-color: #006ba0 !important;
+    color: white;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+summary::marker{
+  content: ' ';
+
+}
+details[open] {
+    padding: .5em;
+    background-color: #009ad1;
+    color: white;
+    font-size: bold;
+}
+
+details[open] summary {
+    /* border-bottom: 1px solid #aaa; */
+    margin-bottom: .5em;
+    border-radius: 5px 5px 0px 0px !important;
+    
+}
+
+.SOL_gateDesign{
+  box-shadow: 0px 0px 8px #0003;
+  width: 90% ;
+}
+
+.SOL_blockType{
+  box-shadow: 0px 0px 8px #0003;
+  width: 90%;
+}
+
+.SOL_gateLabel{
+  width: 100px;
+  height: 100px;
+}
+
+.SOL_labelGateText{
+  /* position: absolute;
+  top: 75%;
+  font-weight: bold;
+  background: #ffffff59;
+  width: 100%;
+  text-align: center;
+  color: #615d5d;
+  font-size: 0.8em;
+  padding-bottom: 5px; */
+  position: absolute;
+  top: 71%;
+  font-weight: bold;
+  background: #ffffff59;
+  width: 83%;
+  text-align: center;
+  color: #615d5d;
+  font-size: 0.8em;
+  padding-bottom: 5px;
+  left: 13%;
+}
+
+.SOL_labelRal{
+  /* position: absolute;
+  top: 60%;
+  font-weight: bold;
+  background: #ffffff94;
+  width: 80%;
+  text-align: center;
+  color: #2f2e2e;
+  font-size: 0.8em; */
+  position: absolute;
+  top: 57%;
+  font-weight: bold;
+  background: #ffffff94;
+  width: 69%;
+  text-align: center;
+  color: #2f2e2e;
+  font-size: 0.8em;
+  left: 20%;
+
+}
+
+.SOL_RalImg{
+  width: 50px;
+}
+.SOL_modal{
+  width: 80%;
+  height: 20;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #009ad1;
+  z-index: 2;
+  position: fixed;
+  top: 20%;
+  left: 10%;
+}
+
+.SOL_modal h1{
+  background-color: #006ba0;
+  border-radius: 5px 5px 0% 0%;
+  color:white;
+}
+
+.SOL_inputForm {
+  padding: 9px;
+  border-width: 2px;
+  background-color: #FFFFFF;
+  color: #000000;
+  border-style: solid;
+  border-radius: 8px;
+  box-shadow: 0px 0px 13px rgba(66,66,66,.72);
+  width: 50%;
+}
+.SOL_inputForm:focus {
+  outline:none;
+  border-color: #6d62e9;
+  text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.75);
+}
+
+.SOL_labelForm{
+  border: none;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  display: inline-grid;
+}
+
+.SOL_formGroup{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  line-height: 0.1em;
+  flex-direction: column;
+  align-items: center;
+}
+.SOL_darkWaiting{
+  width: 100%;
+  height: 100%;
+  background: #221f24bf;
+  position: fixed;
+  z-index: 1;
+  top: 0%;
+  left: 0%;
+}
+.SOL_buttonSend{
+  background-color: #006ba0 !important;
+}
+
+.SOL_quote{
+  position: fixed;
+  width: 50%;
+  top: 9%;
+}
+
+.SOL_TilteConfigurator{
+  position: fixed;
+  z-index: 3;
+  top: 0%;
+  background: #006ba0;
+  width: 100%;
+  left: 0%;
+  box-shadow: 0px 0px 16px black;
+  color: white;
+  text-transform: capitalize;
+  font-weight: 120;
+}
+
+.SOL_select{
+  margin-top: 5%;
+}
+
+
+/* Create custom rotating down-up-arrow with an inline svg - replace with your own arrow if this caret isn't to your liking */
+
+details>summary:after {
+content: ' ';
+width: 2rem;
+height: 2rem;
+display: inline-block;
+transform: rotate(90deg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: 100%;
+background-image: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="4rem" height="4rem"><path d="M0 0h24v24H0V0z" fill="none"/><path fill="lightgray" d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/></svg>');
+}
+
+/* Rotate the arrow when the collapsible is open */
+details[open]>summary:after {
+transform: rotate(-90deg);
+}

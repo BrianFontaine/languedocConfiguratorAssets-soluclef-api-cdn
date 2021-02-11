@@ -1,0 +1,12 @@
+{
+    "locations":[
+        {
+            "location" : "Interieur",
+            "picture"  : "interieur.jpg"
+        },
+        {
+            "location" : "Exterieur",
+            "picture"  : "exterieur.jpg"
+        }
+    ]
+}
