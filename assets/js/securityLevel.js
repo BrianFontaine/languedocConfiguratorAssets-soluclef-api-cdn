@@ -1,6 +1,6 @@
 let securityRequest = new XMLHttpRequest();
 securityRequest.overrideMimeType("application/json");
-securityRequest.open('GET', 'assets/js/security.json', true);
+securityRequest.open('GET', 'https://brianfontaine.github.io/languedocConfiguratorAssets-soluclef-api-cdn/assets/js/security.json', true);
 securityRequest.onreadystatechange = function () {
   if (securityRequest.readyState == 4 && securityRequest.status == "200") {
     var json = JSON.parse(securityRequest.responseText);
@@ -11,7 +11,7 @@ securityRequest.onreadystatechange = function () {
       securityLevel += `
       <li>
           <input type="radio" id="myradioColor${security.label}" name="securityLevel" value="${security.label}"/>
-          <label for="myradioColor${security.label}" onclick="checksecurity(this.control.value);"><img class="SOL_gatelabel SOL_gateLabel"src="assets/image/security/${security.picture}" alt="${security.label}" />
+          <label for="myradioColor${security.label}" onclick="checksecurity(this.control.value);"><img class="SOL_gatelabel SOL_gateLabel"src="https://brianfontaine.github.io/languedocConfiguratorAssets-soluclef-api-cdn/assets/image/security/${security.picture}" alt="${security.label}" />
             <span class="SOL_labelGateText" >${security.label}</span>
           </label>
       </li>`;
