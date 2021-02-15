@@ -1,6 +1,6 @@
 let setupTypeRequest = new XMLHttpRequest();
 setupTypeRequest.overrideMimeType("application/json");
-setupTypeRequest.open('GET', 'assets/js/setupType.json', true);
+setupTypeRequest.open('GET', 'https://brianfontaine.github.io/languedocConfiguratorAssets-soluclef-api-cdn/assets/js/setupType.json', true);
 setupTypeRequest.onreadystatechange = function () {
   if (setupTypeRequest.readyState == 4 && setupTypeRequest.status == "200") {
     var json = JSON.parse(setupTypeRequest.responseText);
@@ -11,7 +11,7 @@ setupTypeRequest.onreadystatechange = function () {
       locationLevel += `
       <li>
           <input type="radio" id="myradio${setupType.label}" name="setupType" value="${setupType.label}"/>
-          <label for="myradio${setupType.label}" onclick="checkSetupType(this.control.value);"><img class="SOL_gatelabel SOL_gateLabel"src="assets/image/pose/${setupType.picture}" alt="${setupType.label}" />
+          <label for="myradio${setupType.label}" onclick="checkSetupType(this.control.value);"><img class="SOL_gatelabel SOL_gateLabel"src="https://brianfontaine.github.io/languedocConfiguratorAssets-soluclef-api-cdn/assets/image/pose/${setupType.picture}" alt="${setupType.label}" />
             <span class="SOL_labelGateText" style="background: #ffffffdb;">${setupType.label}</span>
           </label>
       </li>`;
