@@ -170,13 +170,12 @@ details[open] summary {
   font-size: 0.8em;
   padding-bottom: 5px; */
   position: absolute;
-  top: 71%;
+  top: 72%;
   font-weight: bold;
-  background: #ffffff59;
   width: 83%;
   text-align: center;
   color: #615d5d;
-  font-size: 0.8em;
+  font-size: 1.2em;
   padding-bottom: 5px;
   left: 13%;
 }
@@ -191,15 +190,14 @@ details[open] summary {
   color: #2f2e2e;
   font-size: 0.8em; */
   position: absolute;
-  top: 57%;
+  top: 59%;
   font-weight: bold;
   background: #ffffff94;
   width: 69%;
   text-align: center;
   color: #2f2e2e;
-  font-size: 0.8em;
+  font-size: 1.2em;
   left: 20%;
-
 }
 
 .SOL_RalImg{
