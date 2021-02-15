@@ -57,7 +57,7 @@ form.addEventListener('click',function(e){
                     alert("Une erreur est survenue...  ");
                 }
             }
-            validateCustomerInfo.open('POST', "controller/sendForm.php", true);
+            validateCustomerInfo.open('POST', "http://localhost/solucleflanguedoc2/configurateur/blocgenerator/sendForm", true);
             validateCustomerInfo.responseType = "json";
             validateCustomerInfo.send(customerInfos);
         });
