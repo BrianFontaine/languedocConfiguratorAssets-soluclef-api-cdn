@@ -1,6 +1,6 @@
 let locationRequest = new XMLHttpRequest();
 locationRequest.overrideMimeType("application/json");
-locationRequest.open('GET', 'assets/js/location.json', true);
+locationRequest.open('GET', 'https://brianfontaine.github.io/languedocConfiguratorAssets-soluclef-api-cdn/assets/js/location.json', true);
 locationRequest.onreadystatechange = function () {
   if (locationRequest.readyState == 4 && locationRequest.status == "200") {
     var json = JSON.parse(locationRequest.responseText);
@@ -11,7 +11,7 @@ locationRequest.onreadystatechange = function () {
       locationLevel += `
       <li>
           <input type="radio" id="myradio${location.location}" name="locationLevel" value="${location.location}"/>
-          <label for="myradio${location.location}" onclick="checkLocation(this.control.value);"><img id="${location.location}" class="SOL_gatelabel SOL_gateLabel"src="assets/image/Emplacement/${location.picture}" alt="${location.location}" />
+          <label for="myradio${location.location}" onclick="checkLocation(this.control.value);"><img id="${location.location}" class="SOL_gatelabel SOL_gateLabel"src="https://brianfontaine.github.io/languedocConfiguratorAssets-soluclef-api-cdn/assets/image/Emplacement/${location.picture}" alt="${location.location}" />
             <span class="SOL_labelGateText" style="background: #ffffffdb;">${location.location}</span>
           </label>
       </li>`;
