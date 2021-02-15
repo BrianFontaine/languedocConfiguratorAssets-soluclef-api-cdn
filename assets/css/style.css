@@ -65,7 +65,7 @@ ul {
     z-index: -1;
   }
   .box-preview{
-    width: 15em;
+      width: 30em;
   }
   fieldset{
     border: 2px solid rgb(255, 255, 255);
