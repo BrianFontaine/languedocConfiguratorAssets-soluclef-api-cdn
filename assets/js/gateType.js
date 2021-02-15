@@ -1,6 +1,6 @@
 let gateRequest = new XMLHttpRequest();
 gateRequest.overrideMimeType("application/json");
-gateRequest.open('GET', 'assets/js/individualGate.json', true);
+gateRequest.open('GET', 'https://brianfontaine.github.io/languedocConfiguratorAssets-soluclef-api-cdn/assets/js/individualGate.json', true);
 gateRequest.onreadystatechange = function () {
   if (gateRequest.readyState == 4 && gateRequest.status == "200") {
     var json = JSON.parse(gateRequest.responseText);
@@ -11,7 +11,7 @@ gateRequest.onreadystatechange = function () {
       individualGates += `
       <li>
           <input type="radio" id="myradioColor${gateType.design}" name="gate" value="${gateType.design}"/>
-          <label for="myradioColor${gateType.design}" onclick="checkGateTypes(this.control.value);"><img class="SOL_gateDesign SOL_gateLabel"src="assets/image/individualGates/${gateType.picture}" alt="${gateType.design}" />
+          <label for="myradioColor${gateType.design}" onclick="checkGateTypes(this.control.value);"><img class="SOL_gateDesign SOL_gateLabel"src="https://brianfontaine.github.io/languedocConfiguratorAssets-soluclef-api-cdn/assets/image/individualGates/${gateType.picture}" alt="${gateType.design}" />
             <span class="SOL_labelGateText" >${gateType.design}</span>
           </label>
       </li>`;
