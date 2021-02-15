@@ -239,13 +239,17 @@ width: 50% !important;
 
 .SOL_labelForm{
   border: none;
-  font-size : 1.2em;
+  font-size : 1.5em;
   color: white;
   font-weight: bold;
   width: 100%;
   display: inline-grid;
 }
-
+.SOL_btnSendValue{
+     font-size: 1.2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
 .SOL_formGroup{
   display: flex;
   flex-wrap: wrap;
@@ -259,7 +263,7 @@ width: 50% !important;
   height: 100%;
   background: #221f24bf;
   position: fixed;
-  z-index: 1;
+  z-index: 50;
   top: 0%;
   left: 0%;
 }
