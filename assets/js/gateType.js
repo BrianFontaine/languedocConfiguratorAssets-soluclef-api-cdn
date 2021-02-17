@@ -9,7 +9,7 @@ gateRequest.onreadystatechange = function () {
     // Ral stucture
     desingGate.forEach(gateType => {
       individualGates += `
-      <li>
+      <li class="SOL_selectConf">
           <input type="radio" id="myradioColor${gateType.design}" name="gate" value="${gateType.design}"/>
           <label for="myradioColor${gateType.design}" onclick="checkGateTypes(this.control.value);"><img class="SOL_gateDesign SOL_gateLabel"src="https://brianfontaine.github.io/languedocConfiguratorAssets-soluclef-api-cdn/assets/image/individualGates/${gateType.picture}" alt="${gateType.design}" />
             <span class="SOL_labelGateText" >${gateType.design}</span>
