@@ -9,7 +9,7 @@ request.onreadystatechange = function () {
     // Ral stucture
     colorsBlock.forEach(colorBlock => {
       colorStucture += `
-      <li>
+      <li class="SOL_selectConf">
           <input type="radio" id="myradioColor${colorBlock.category}" name="color" value="${colorBlock.category}"/>
           <label for="myradioColor${colorBlock.category}" onclick="checkColor(this.control.value);"><img class="SOL_RalImg" src="https://brianfontaine.github.io/languedocConfiguratorAssets-soluclef-api-cdn/assets/image/ral/${colorBlock.picture}" alt="${colorBlock.color}"/>
             <span class="SOL_labelRal" >${colorBlock.category}</span>
@@ -21,7 +21,7 @@ request.onreadystatechange = function () {
     colorPortal ='';
     colorsBlock.forEach(colorBlockPortal => {
       colorPortal += `
-      <li>
+      <li class="SOL_selectConf">
           <input type="radio" id="myradioColorPortal${colorBlockPortal.category}" name="colorPortal" value="${colorBlockPortal.category}"/>
           <label for="myradioColorPortal${colorBlockPortal.category}" onclick="checkColorPortal(this.control.value);"><img class="SOL_RalImg" src="https://brianfontaine.github.io/languedocConfiguratorAssets-soluclef-api-cdn/assets/image/ral/${colorBlockPortal.picture}"  alt="${colorBlockPortal.color}"/>
             <span class="SOL_labelRal" >${colorBlockPortal.category}</span>
