@@ -13,7 +13,9 @@ p.section{
   li {
     display: inline-block;
   }
-  
+.ui-menu-item all-category{
+   display:block;
+}
   input[type="radio"][id^="myradio"] {
     display: none;
   }
