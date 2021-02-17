@@ -13,9 +13,14 @@ p.section{
   .SOL_selectConf {
     display: inline-block;
   }
+
+
 .SOL_selectConf img{
   wight:22%;
+  margin-left: 6%;
+  padding: 1%;
 }
+
   input[type="radio"][id^="myradio"] {
     display: none;
   }
@@ -89,11 +94,6 @@ p.section{
     font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f058";
     color: green;
   }
-
-img{
-    margin-left: 6%;
-    padding: 1%;
-}
 .accounts{
     color: black;
     text-decoration: none;
