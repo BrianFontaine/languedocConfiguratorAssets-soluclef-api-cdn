@@ -9,7 +9,7 @@ locationRequest.onreadystatechange = function () {
     // Ral stucture
     gateSecurity.forEach(location => {
       locationLevel += `
-      <li>
+      <li class="SOL_selectConf">
           <input type="radio" id="myradio${location.location}" name="locationLevel" value="${location.location}"/>
           <label for="myradio${location.location}" onclick="checkLocation(this.control.value);"><img id="${location.location}" class="SOL_gatelabel SOL_gateLabel"src="https://brianfontaine.github.io/languedocConfiguratorAssets-soluclef-api-cdn/assets/image/Emplacement/${location.picture}" alt="${location.location}" />
             <span class="SOL_labelGateText" style="background: #ffffffdb;">${location.location}</span>
