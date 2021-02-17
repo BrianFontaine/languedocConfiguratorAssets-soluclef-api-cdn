@@ -49,7 +49,7 @@ function checkSetupType(setupTypeName) {
         // Ral stucture
         stakes.forEach(stake => {
           stakeType += `
-            <li>
+            <li class="SOL_selectConf">
               <input type="radio" id="myradio${stake.label}" name="stake" value="${stake.label}"/>
                 <label for="myradio${stake.label}" onclick="checkstake(this.control.value);"><img class="SOL_gatelabel SOL_gateLabel"src="https://brianfontaine.github.io/languedocConfiguratorAssets-soluclef-api-cdn/assets/image/piquet/${stake.picture}" alt="${stake.label}" />
                   <span class="SOL_labelGateText" style="background: #ffffffdb;">${stake.label}</span>
