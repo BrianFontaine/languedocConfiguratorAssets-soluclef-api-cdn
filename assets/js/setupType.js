@@ -9,7 +9,7 @@ setupTypeRequest.onreadystatechange = function () {
     // Ral stucture
     setupTypes.forEach(setupType => {
       locationLevel += `
-      <li>
+      <li class="SOL_selectConf">
           <input type="radio" id="myradio${setupType.label}" name="setupType" value="${setupType.label}"/>
           <label for="myradio${setupType.label}" onclick="checkSetupType(this.control.value);"><img class="SOL_gatelabel SOL_gateLabel"src="https://brianfontaine.github.io/languedocConfiguratorAssets-soluclef-api-cdn/assets/image/pose/${setupType.picture}" alt="${setupType.label}" />
             <span class="SOL_labelGateText" style="background: #ffffffdb;">${setupType.label}</span>
