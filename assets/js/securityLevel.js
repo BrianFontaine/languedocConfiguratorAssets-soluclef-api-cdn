@@ -9,7 +9,7 @@ securityRequest.onreadystatechange = function () {
     // Ral stucture
     gateSecurity.forEach(security => {
       securityLevel += `
-      <li>
+      <li class="SOL_selectConf">
           <input type="radio" id="myradioColor${security.label}" name="securityLevel" value="${security.label}"/>
           <label for="myradioColor${security.label}" onclick="checksecurity(this.control.value);"><img class="SOL_gatelabel SOL_gateLabel"src="https://brianfontaine.github.io/languedocConfiguratorAssets-soluclef-api-cdn/assets/image/security/${security.picture}" alt="${security.label}" />
             <span class="SOL_labelGateText" >${security.label}</span>
