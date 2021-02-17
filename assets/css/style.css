@@ -6,6 +6,9 @@ body
 ul {
     list-style-type: none;
   }
+p.section{
+  border-bottom :1px solid black;
+}
   
   li {
     display: inline-block;
