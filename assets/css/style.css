@@ -164,6 +164,7 @@ details[open] summary {
   color: #615d5d;
   font-size: 0.8em;
   padding-bottom: 5px; */
+  background: #ffffff85 !important;
   position: absolute;
   top: 72%;
   font-weight: bold;
@@ -187,7 +188,7 @@ details[open] summary {
   position: absolute;
   top: 60%;
   font-weight: bold;
-  #ffffffc2 !important;
+  background: #ffffff85 !important;
   width: 69%;
   text-align: center;
   color: #2f2e2e;
