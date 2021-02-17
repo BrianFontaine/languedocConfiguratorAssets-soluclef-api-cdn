@@ -80,14 +80,6 @@ ul {
     font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f059";
     color: orange;
   }
-  p.section{
-    font-size: 1.3em;
-    border-bottom: 1px solid black;
-  }
-p
-  {
-    font-size: 1.3em;
-  }
   [class^="check"]::after{
     font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f058";
     color: green;
