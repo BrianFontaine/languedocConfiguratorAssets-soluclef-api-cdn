@@ -13,6 +13,9 @@ p.section{
   .SOL_selectConf {
     display: inline-block;
   }
+.SOL_selectConf img{
+  wight:22%;
+}
   input[type="radio"][id^="myradio"] {
     display: none;
   }
