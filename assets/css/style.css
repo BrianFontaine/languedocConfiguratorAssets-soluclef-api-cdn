@@ -170,7 +170,7 @@ details[open] summary {
   width: 83%;
   text-align: center;
   color: #615d5d;
-  font-size: 1.2em;
+  font-size: 1.2rem;
   padding-bottom: 5px;
   left: 13%;
 }
@@ -185,13 +185,13 @@ details[open] summary {
   color: #2f2e2e;
   font-size: 0.8em; */
   position: absolute;
-  top: 59%;
+  top: 60%;
   font-weight: bold;
   background: #ffffff94;
   width: 69%;
   text-align: center;
   color: #2f2e2e;
-  font-size: 1.2em;
+  font-size: 1.2rem;
   left: 20%;
 }
 
