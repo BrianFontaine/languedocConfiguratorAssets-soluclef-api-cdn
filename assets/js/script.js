@@ -46,7 +46,7 @@ form.addEventListener('click',function(e){
                     // var resultRequest = this.response;
                     // if (resultRequest.success == 1) {
                         document.getElementById('confirDevis').innerHTML = confirDevis;
-                        document.getElementById('successMessages').innerHTML = `<p  class="text-center alert alert-success">${resultRequest.message}</p>`;
+                        document.getElementById('successMessages').innerHTML = `<p  class="text-center alert alert-success">Votre demande a bien été enregistrée et transmise à nos équipes. Elles reviendront vers vous au plus vite pour vous délivrer votre devis.</p>`;
                         /* if (document.getElementById('messagesCustomers')) {
                             document.getElementById('messagesCustomers').innerHTML ="";
                          } */
