@@ -51,7 +51,7 @@ form.addEventListener('click',function(e){
                                 <p class="text-center text-white h1 mb-5">Votre demande a bien été enregistrée et transmise à nos équipes. Elles reviendront vers vous au plus vite pour vous délivrer votre devis.</p>
                                 <div class="row col-md-12 mx-auto justify-content-around">
                                     <a style="color: black !important;" href="https://www.soluclef.com" class="btn btn-warning SOL_btnConfirmQuote col-2">Retour à l'accueil</a>
-                                    <a  href="https://www.soluclef.com/configurateur/blocgenerator/" class="btn btn-success SOL_btnConfirmQuote col-2">Configurer un nouveau bloc</a>
+                                    <a style="color:white !important;" href="https://www.soluclef.com/configurateur/blocgenerator/" class="btn btn-success SOL_btnConfirmQuote col-2">Configurer un nouveau bloc</a>
                                 </div>                     
                             </div>
                         </div>`;
@@ -66,7 +66,7 @@ form.addEventListener('click',function(e){
                     alert("Une erreur est survenue...  ");
                 }
             }
-            validateCustomerInfo.open('POST', "https://www.soluclef.com/configurateur/blocgenerator/form", true);
+            validateCustomerInfo.open('POST', "https://www.soluclef.com/test/sendForm.php", true);
             validateCustomerInfo.responseType = "json";
             validateCustomerInfo.send(customerInfos);
         });
