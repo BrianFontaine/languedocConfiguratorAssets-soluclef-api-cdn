@@ -43,16 +43,16 @@ form.addEventListener('click',function(e){
             var confirDevis ="";
             validateCustomerInfo.onreadystatechange = function () {
                 if (this.readyState == 4 && this.status == 200) {
-                    var resultRequest = this.response;
-                    if (resultRequest.success == 1) {
-                        document.getElementById('confirDevis').innerHTML = confirDevis;
+                    // var resultRequest = this.response;
+                    // if (resultRequest.success == 1) {
+                        // document.getElementById('confirDevis').innerHTML = confirDevis;
                         document.getElementById('successMessages').innerHTML = `<p  class="text-center alert alert-success">${resultRequest.message}</p>`;
-                        if (document.getElementById('messagesCustomers')) {
+                        /* if (document.getElementById('messagesCustomers')) {
                             document.getElementById('messagesCustomers').innerHTML ="";
-                        }
-                    }else if(resultRequest.success == 0){
+                         } */
+                    /* }else if(resultRequest.success == 0){
                         document.getElementById('messagesCustomers').innerHTML = `<p  class="text-center alert alert-danger">${resultRequest.message}</p>`;
-                    }
+                    } */
                 } else if (this.readyState == 4 && this.status == 404) {
                     alert("Une erreur est survenue...  ");
                 }
