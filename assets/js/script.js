@@ -57,7 +57,7 @@ form.addEventListener('click',function(e){
                     alert("Une erreur est survenue...  ");
                 }
             }
-            validateCustomerInfo.open('POST', "https://www.soluclef.com/configurateur/blocgenerator/sendForm", true);
+            validateCustomerInfo.open('POST', "https://www.soluclef.com/configurateur/blocgenerator/form", true);
             validateCustomerInfo.responseType = "json";
             validateCustomerInfo.send(customerInfos);
         });
