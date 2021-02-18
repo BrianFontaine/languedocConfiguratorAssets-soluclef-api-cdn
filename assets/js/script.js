@@ -45,7 +45,7 @@ form.addEventListener('click',function(e){
                 if (this.readyState == 4 && this.status == 200) {
                     // var resultRequest = this.response;
                     // if (resultRequest.success == 1) {
-                        // document.getElementById('confirDevis').innerHTML = confirDevis;
+                        document.getElementById('confirDevis').innerHTML = confirDevis;
                         document.getElementById('successMessages').innerHTML = `<p  class="text-center alert alert-success">${resultRequest.message}</p>`;
                         /* if (document.getElementById('messagesCustomers')) {
                             document.getElementById('messagesCustomers').innerHTML ="";
