@@ -17,7 +17,13 @@ p.section{
     display: inline-block;
   }
 
-
+.SOL_btnConfirmQuote{
+  height: 4rem !important;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 1.7rem;
+}
 .SOL_selectConf img{
   wight:22%;
   margin-left: 6%;
