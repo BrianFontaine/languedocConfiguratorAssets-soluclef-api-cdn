@@ -1,4 +1,5 @@
 let form = document.getElementById('sendData');
+var urlcourante = document.location.href;
 
 form.addEventListener('click',function(e){
     var blockType = document.getElementById("blockType").value;
@@ -55,6 +56,21 @@ form.addEventListener('click',function(e){
                                 </div>                     
                             </div>
                         </div>`;
+                    
+                    if(urlcourante == 'https://www.soluclef.com/vn2qooh4ilbjq1se/admininterfacelanguedoc/index/index/'){
+                       document.getElementById('confirDevis').innerHTML = `
+                        <div class="SOL_darkWaiting">
+                            <div class="SOL_modal p-5">
+                                <p class="text-center text-white h1 mb-5">Votre demande a bien été enregistrée et transmise à nos équipes. Elles reviendront vers vous au plus vite pour vous délivrer votre devis.</p>
+                                <div class="row col-md-12 mx-auto justify-content-around">
+                                    <button id="clearModal" class="btn btn-warning" >Fermer La fenetre</button>
+                                </div>                     
+                            </div>
+                        </div>`;
+                    }
+                    document.getElementById("clearModal").addEventListener('click',function(){
+                        document.getElementById('confirDevis').innerHTML = "";
+                    });
                         //document.getElementById('successMessages').innerHTML = `<p  class="text-center alert alert-success">Votre demande a bien été enregistrée et transmise à nos équipes. Elles reviendront vers vous au plus vite pour vous délivrer votre devis.</p>`;
                         /* if (document.getElementById('messagesCustomers')) {
                             document.getElementById('messagesCustomers').innerHTML ="";
