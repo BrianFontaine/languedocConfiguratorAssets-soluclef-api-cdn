@@ -48,10 +48,10 @@ form.addEventListener('click',function(e){
                         document.getElementById('confirDevis').innerHTML = `
                         <div class="SOL_darkWaiting">
                             <div class="SOL_modal p-5">
-                                <p class="text-center text-white h3">Votre demande a bien été enregistrée et transmise à nos équipes. Elles reviendront vers vous au plus vite pour vous délivrer votre devis.</p>
+                                <p class="text-center text-white h1">Votre demande a bien été enregistrée et transmise à nos équipes. Elles reviendront vers vous au plus vite pour vous délivrer votre devis.</p>
                                 <div class="row col-md-12 mx-auto justify-content-around">
-                                    <a href="https://www.soluclef.com" class="btn btn-success">Retour à l'accueil</a>
-                                    <a href="https://www.soluclef.com/configurateur/blocgenerator/" class="btn btn-success">Configurer un nouveau bloc</a>
+                                    <a href="https://www.soluclef.com" class="btn btn-warning SOL_btnConfirmQuote ">Retour à l'accueil</a>
+                                    <a href="https://www.soluclef.com/configurateur/blocgenerator/" class="btn btn-success SOL_btnConfirmQuote">Configurer un nouveau bloc</a>
                                 </div>                     
                             </div>
                         </div>`;
